@@ -1,0 +1,85 @@
+
+
+
+
+
+
+
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3{
+	font-family: 'Bebas Neue', cursive;
+	color: #363958;
+
+}
+h1{
+	font-size: 4rem;
+}
+#header_area{
+	background-color: #FFF9F4;
+}
+.orange_highlight{
+	color: tomato;
+}
+
+.custom_btn i{
+margin-right: 5px;
+}
+
+.all-hero-text{
+	margin-left:20%; 
+}
+.shoe_card_fotter{
+	border: 0px;
+	background-color:#fff; 
+	margin: 2%
+}
+.shoe_card_fotter h3{
+	font-size: 2.5rem;
+}
+
+
+.product_img{
+	border: 12px solid #fff;
+border-radius: 10%
+}
+.product_card{
+
+	border-radius: 6%;
+	border: 0;
+	
+
+}
+
+.features_section_img{
+	padding-left: 9%;
+}
+
+
+
+@media (max-width: 576px){
+	.all-hero-text{
+		margin-left: 0;
+	}
+	
+}
+
+
+@media(max-width:767px){
+	.p-3 {
+		padding: 4rem !important;
+	}
+}
+@media (max-width:450px){
+	.shoe_card_fotter button{
+		font-size: 12px;
+		padding:10% 12%;
+	}
+	.p-3 {
+		padding: 2.5rem !important;
+	}
+}
+
